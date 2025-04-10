@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <meta charset="UTF-8"> 
+<!-- this meta has to be between open and close head -->
+
+<meta name="keywords" content="test, website design, css">
+<meta name="dc.subject" content="test,website design, css">
+<neta name="dc.title" content="Kal's website">
+<meta name="dc.creator" content="Kal">
+<meta name="description" content="this is a description">
+<meta name="dc.publisher" contentalgonquin college">
+<meta name="dc.contributer" content=""
+<meta name="dc.date" content="20250401">
+meta name="dc.format" content="text">
+<meta name="resource identifier" content">
+
+
+	<link rel="stylesheet" href="global.css" media="screen">
+<link rel="stylesheet" href="print.css" media="print">
+ <title> My website </title> </head>
+
+
+	<body> 
+	<div id="wrapper"> <!-- id is the identification of the div or division -->
+<header> <h1> Home Page </h1> </header> 
+	<!-- parent/child tags, parent is the header, child is the h1 -->
+	<article>
+
+
+	<section>
+<h2> heading 2 </h2>
+	</section>
+
+<img src="images/bookbind.jpg" width="215" height="143" alt="bookbinding photo" title="Bookbinding workshop photo">
+
+
+
+<section> 
+<p>Paragraph <strong>paragraph</strong> paragraph wahoo
+<a href=”#footnote-1”title=”wahoo”><sup>1</sup></a>
+  paragraph</p>
+<p>paragraph <abbr title="llol olol llol">lol</abbr> paragraph <em>paragraph</em></p>
+
+
+
+<a href="images/flower.jpg" title="flower"> <img src=images/flowerth.jpg width="154" height="103" alt="thumbnail of a flower"> </a>
+
+
+
+<p> The King </p>
+<img src="images/king.png" width="217" height="344" alt="the King" title="king photo">
+<br>
+<a href="https://en.wikipedia.org/wiki/Jafar_Khan" title="THE KING" target="_blank"> Visit the king.
+</a>
+</section>
+<br>
+<br>
+<br>
+
+<section>
+<p>Visit</p>
+<a href="https://www.w3schools.com/tags/default.asp" rel="external" title="Visit W3 Schools" target="_blank">Visit W3 Schools 
+</a> 
+<!-- target="_blank" sends the link to a new tab -->
+</section>
+
+	</article>
+	<nav role="navigation">
+	  <ul>
+	   <li> <a href="index.html" title="home"> Home </a>  </li>
+	   <li> <a href="about.html" title="about us"> About Us </a> </li>
+	   <li> <a href="contact.html" title="contact information"> Contact Information </a> </li>
+	   <li> <a href="services.html" title="services"> Services </a>  </li>
+
+
+	  </ul>
+	</nav>
+
+<footer> 
+<p>&copy;Copyright 2024 <address> 
+<a href="mailto:brid0106@algonquinlive.com" title="send an email"> Email</a>
+
+<br> Send email to brid0106 [at] algonquinlive.com </address>  </p> 
+<p><sup>1 lmao wahoo explanation</sup> </p>
+</footer>
+
+<!-- br (break tags) don't need to be closed -->
+	</div> <!-- closing div id wrapper -->
+	</body>
+</html>
